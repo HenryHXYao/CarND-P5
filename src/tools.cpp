@@ -82,7 +82,7 @@ VectorXd Tools::CalculateMeasurement(const VectorXd& x_state) {
   float vx = x_state(2);
   float vy = x_state(3);
   
-  // calculate measurement vector
+  // calculate the measurement vector
   float c1 = px*px+py*py;
   float c2 = sqrt(c1);
   h(0) = c2;
